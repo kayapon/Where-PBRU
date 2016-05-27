@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">WherePBRU</string>
+    <string name="app_name">Where PBRU</string>
+    <string name="SERCHROOM">หมายเลขห้อง</string>
+
 </resources>
