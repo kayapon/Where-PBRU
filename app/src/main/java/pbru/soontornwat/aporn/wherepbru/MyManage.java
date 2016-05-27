@@ -13,13 +13,12 @@ public class MyManage {
     private SQLiteDatabase sqLiteDatabase;
 
     public static final String room_table = "roomTABlE";
-    private static final String column_id = "_id";
-    private static final String column_Buid = "Buid";
-    private static final String column_Room = "Room";
-    private static final String column_Lat = "Lat";
-    private static final String column_Lng = "Lng";
-    private static final String column_Icon = "Icon";
-    private static final String column = "";
+    public static final String column_id = "_id";
+    public static final String column_Buid = "Buid";
+    public static final String column_Room = "Room";
+    public static final String column_Lat = "Lat";
+    public static final String column_Lng = "Lng";
+    public static final String column_Icon = "Icon";
 
     public MyManage(Context context) {
         myOpenHelper = new MyOpenHelper(context);
